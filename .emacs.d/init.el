@@ -73,7 +73,7 @@
   (other-window 1))
 (global-set-key (kbd "C-t") 'other-window-or-split)
 
-;; helm                                                                                              
+;; helm
 ;; (setq load-path (cons "~/.emacs.d/helm-master/" load-path))                                          
 ;; (require 'helm-config)                                                                               
 ;; (helm-mode 1)                                                                                        
