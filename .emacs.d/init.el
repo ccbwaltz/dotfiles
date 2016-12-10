@@ -64,6 +64,11 @@
 ;;選択部分を一気にインデントにする indent-region のキーバインドの設定
 (global-set-key "\C-x\C-i" 'indent-region)
 
+;; シンボリックリンクの読み込みを許可
+(setq vc-follow-symlinks t)
+;; シンボリックリンク先のVCS内で更新が入った場合にバッファを自動更新
+(setq auto-revert-check-vc-info t)
+
 ;; Ctrl+t に フレーム移動を割り当て
 ;; フレームがないときは新規フレーム作成+画面分割
 (defun other-window-or-split ()
