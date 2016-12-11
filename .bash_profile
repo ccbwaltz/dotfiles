@@ -34,3 +34,10 @@ HISTTIMEFORMAT='%Y/%m/%d %T ';
 export HISTTIMEFORMAT
 
 
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+type pyenv >/dev/null 2>&1
+if [ $? = 1 ]; then
+    eval "$(pyenv init -)"
+fi
+
