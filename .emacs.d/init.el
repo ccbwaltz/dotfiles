@@ -136,7 +136,6 @@
 ;;   "Emulate `kill-line' in helm minibuffer"
 ;;     (kill-new (buffer-substring (point) (field-end))))
 
-
 ;; undo-tree
 (require 'undo-tree)
 (when (require 'undo-tree nil t)
