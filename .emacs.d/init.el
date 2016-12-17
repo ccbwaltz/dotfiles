@@ -8,4 +8,5 @@
 ;; init-loader
 (require 'init-loader)
 (init-loader-load "~/dotfiles/.emacs.d/inits/")
+(setq init-loader-show-log-after-init t)
 

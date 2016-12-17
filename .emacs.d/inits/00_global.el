@@ -9,7 +9,6 @@
 (fset 'package-desc-vers 'package--ac-desc-version)
 (package-initialize)
 
-
 ;; 環境を日本語、UTF-8にする
 (set-locale-environment nil)
 (set-language-environment "Japanese")
