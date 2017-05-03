@@ -16,6 +16,9 @@ export PATH
 alias ll='ls -alF'
 alias rm='rm -i'
 alias ls='ls -F --color=auto'
+alias ekill='emacsclient -e "(kill-emacs)"'
+alias e='emacsclient -a ""'
+alias emacs='emacsclient -a ""'
 
 # 重複履歴を無視
 export HISTCONTROL=ignoredups
