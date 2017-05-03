@@ -1,6 +1,7 @@
 
 ;; Ctrl+h にbackspaceを割り当て
 (keyboard-translate ?\C-h ?\C-?)
+(define-key key-translation-map [?\C-h] [?\C-?])
 
 ;; Ctrl+t に フレーム移動を割り当て
 ;; フレームがないときは新規フレーム作成+画面分割
