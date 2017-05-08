@@ -11,7 +11,7 @@
 (elpy-use-ipython)
 
 ;;; 自動補完のバックエンドとして Rope か Jedi を選択
-(setq elpy-rpc-backend "jedi")
+;(setq elpy-rpc-backend "jedi")
 
 ;; インデントのハイライト
 ;; カーソル位置のみ
@@ -20,7 +20,7 @@
 (add-hook 'elpy-mode-hook 'highlight-indentation-current-column-mode)
 
 ;; jedi
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)  
+;(add-hook 'python-mode-hook 'jedi:setup)
+;(setq jedi:complete-on-dot t)  
 
 
