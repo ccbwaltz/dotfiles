@@ -6,6 +6,11 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
+PATH=$PATH:/usr/local/bin
+export PATH
+
+# for cask
+export EMACS=emacs
 
 # cask
 PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/.cask/bin
